@@ -1,26 +1,22 @@
 ---
 title: Mulai di sini
-description: Sebuah tempat untuk menyimpan pembelajaran dan merawat hubungan antaride.
+description: Cara menjelajahi dan memahami catatan di Knowledge Library.
 publish: true
 draft: false
 date: 2026-11-03
-tags:
-  - tentang
 ---
 
 Website ini berawal dari keinginan untuk mengabadikan pembelajaran dalam bentuk yang mudah dibaca kembali dan dibagikan.
 
+## Dua cara menjelajah
+
+Mulailah dari [[index|beranda]] untuk memilih bidang yang ingin dipelajari, atau buka [[projects/index|Proyek]] untuk melihat hubungan antara pengalaman dan topik yang muncul darinya. Pencarian, daftar halaman, backlinks, dan graph menyediakan cara lain untuk menemukan hubungan antartulisan.
+
 ## Bentuk catatan
 
-- **Temuan singkat:** satu hal kecil yang baru dipahami.
-- **Konsep:** penjelasan yang dapat diperbaiki dari waktu ke waktu.
-- **Eksperimen:** konteks, langkah, hasil, dan hal yang masih perlu diselidiki.
-- **Peta topik:** kumpulan tautan yang membantu memahami hubungan beberapa catatan.
+- **Konsep:** penjelasan yang dapat diperbaiki seiring bertambahnya pemahaman.
+- **Pengalaman:** konteks, keputusan, dan pelajaran dari sebuah proyek.
+- **Eksperimen:** pertanyaan, pendekatan, hasil yang diamati, dan keterbatasannya.
+- **Peta topik:** kumpulan tautan ke catatan yang saling berhubungan.
 
-## Membaca dan menelusuri
-
-Tautan antartulisan menghubungkan ide yang berkaitan. Backlinks membantu menemukan catatan yang merujuk ke halaman ini. Pencarian dan daftar halaman menjadi jalur lain untuk menjelajah.
-
-Catatan yang belum lengkap dapat diperbarui. Referensi akan dicantumkan ketika tulisan membahas sumber atau pekerjaan orang lain.
-
-Kembali ke [[index|Knowledge Library]].
+Perpustakaan ini masih bertumbuh. Daftar topik pada halaman kategori adalah arah eksplorasi, bukan klaim bahwa semua catatannya sudah tersedia. Sumber akan dicantumkan dalam tulisan yang membahas karya orang lain atau temuan tertentu.

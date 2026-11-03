@@ -6,14 +6,21 @@ draft: false
 date: 2026-11-03
 ---
 
-Selamat datang di perpustakaan pengetahuan saya. Ruang ini menjadi tempat untuk mengabadikan hal yang saya pelajari, menjelaskan kembali ide dengan bahasa sendiri, dan menemukan hubungan antartopik.
+Selamat datang di perpustakaan pengetahuan saya. Di sini saya mengumpulkan hal-hal yang saya pelajari, menjelaskan kembali ide dengan bahasa sendiri, dan menghubungkan pengetahuan dengan pengalaman membuat sesuatu.
 
-Catatan di sini dapat berkembang seiring bertambahnya pemahaman. Tulisan singkat, pertanyaan, dan hasil percobaan juga punya tempat.
+## Jelajahi berdasarkan topik
 
-## Mulai menjelajah
+- [[ai-machine-learning/index|AI & Machine Learning]] — model, pembelajaran mesin, dan evaluasi.
+- [[medical-ai-research/index|Medical AI & Research]] — citra medis, dataset, dan metodologi riset.
+- [[software-development/index|Software Development]] — aplikasi, backend, dan kolaborasi pengembangan.
+- [[product-design/index|Product & Design]] — memahami masalah, merancang, dan menguji ide.
+- [[infrastructure-homelab/index|Infrastructure & Homelab]] — server, jaringan, dan deployment.
+- [[hardware-embedded/index|Hardware & Embedded]] — elektronika, perangkat, dan sistem tertanam.
+- [[career-academic-journey/index|Career & Academic Journey]] — proses belajar, studi, dan karier.
 
-- [[mulai-di-sini|Mulai di sini]] — tentang ruang ini dan cara membaca catatannya.
-- Gunakan pencarian untuk menemukan topik, atau jelajahi hubungan melalui tautan dan graph.
+## Jelajahi berdasarkan pengalaman
+
+[[projects/index|Proyek]] menghubungkan topik di atas dengan konteks pekerjaan dan eksperimen. Untuk mengenal cara membaca perpustakaan ini, kunjungi [[mulai-di-sini|Mulai di sini]].
 
 > [!note] Sedang bertumbuh
-> Perpustakaan ini baru dimulai. Catatan belajar akan ditambahkan secara bertahap.
+> Halaman topik ini adalah peta awal. Catatan dan pengalaman akan ditambahkan serta diperbarui secara bertahap.
