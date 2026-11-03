@@ -7,8 +7,8 @@ tags:
   - comfyui
   - gcp
   - gpu
-publish: false
-draft: true
+publish: true
+draft: false
 ---
 
 # Reproducing Qwen-Image-2.1 GGUF in ComfyUI on a GCP GPU

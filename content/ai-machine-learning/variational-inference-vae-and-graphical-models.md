@@ -3,8 +3,8 @@ title: From Probabilistic Graphs to Variational Autoencoders
 description: How graphical models, variational inference, and amortized inference fit together.
 date: 2026-11-04
 tags: [probability, variational-inference, vae]
-publish: false
-draft: true
+publish: true
+draft: false
 ---
 
 ## Question and scope

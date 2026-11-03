@@ -3,8 +3,8 @@ title: Structural Causal Models and Image Counterfactuals
 description: What causal graphs and counterfactual generation add beyond a VAE.
 date: 2026-11-04
 tags: [causal-inference, counterfactuals, generative-models]
-publish: false
-draft: true
+publish: true
+draft: false
 ---
 
 ## The question

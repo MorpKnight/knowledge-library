@@ -3,8 +3,8 @@ title: RAIT v6 - Detectability and Daily Environmental Features
 description: An evidence-bounded record of a retrospective analysis and simulation of uncertainty.
 date: 2026-11-04
 tags: [experiment, statistics, calibration, medical-research]
-publish: false
-draft: true
+publish: true
+draft: false
 ---
 
 ## Research question and status

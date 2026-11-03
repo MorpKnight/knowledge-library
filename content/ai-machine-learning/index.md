@@ -16,6 +16,11 @@ Notes on how models are trained, used, and evaluated, from foundational concepts
 
 These topics are directions for future notes; not all have their own pages yet.
 
+## Learning notes
+
+- [[ai-machine-learning/variational-inference-vae-and-graphical-models|Probabilistic graphs and VAEs]]
+- [[ai-machine-learning/structural-causal-models-and-counterfactuals|Causal models and counterfactuals]]
+
 ## Related projects
 
 - [[projects/federated-learning|Federated Learning for X-Ray Imaging]]

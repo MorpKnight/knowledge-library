@@ -16,6 +16,10 @@ A space to connect machine learning with medical imaging, data quality, research
 
 These topics are directions for future notes; not all have their own pages yet.
 
+## Learning notes
+
+- [[projects/monash-research-learning-map|Monash workspace learning map]]
+
 ## Related projects
 
 - [[projects/federated-learning|Federated Learning for X-Ray Imaging]]

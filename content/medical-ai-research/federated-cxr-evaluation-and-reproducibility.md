@@ -3,8 +3,8 @@ title: Federated CXR Evaluation and Research Reproducibility
 description: Lessons from evidence mapping, exploratory analyses, and retention of federated imaging results.
 date: 2026-11-04
 tags: [federated-learning, evaluation, reproducibility]
-publish: false
-draft: true
+publish: true
+draft: false
 ---
 
 ## Question

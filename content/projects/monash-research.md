@@ -16,6 +16,10 @@ This space collects directions for learning from research involving medical imag
 
 In-depth notes and specific results can be added after reviewing the project sources.
 
+## Learning notes
+
+- [[projects/monash-research-learning-map|Explore the Monash workspace learning map]]
+
 ## Explore related fields
 
 - [[medical-ai-research/index|Medical AI & Research]]

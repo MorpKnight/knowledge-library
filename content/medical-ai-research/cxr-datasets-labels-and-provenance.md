@@ -3,8 +3,8 @@ title: CXR Dataset Provenance, Labels, and Linkage
 description: How to interpret imaging cohorts, reports, labels, dates, and source metadata.
 date: 2026-11-04
 tags: [medical-imaging, data-provenance, tuberculosis]
-publish: false
-draft: true
+publish: true
+draft: false
 ---
 
 ## Why this matters

@@ -3,8 +3,8 @@ title: Environmental Data and CXR Pairing
 description: Process PM2.5 and weather data while preserving geographic, temporal, and measurement provenance.
 date: 2026-11-04
 tags: [environment, pm25, data-provenance]
-publish: false
-draft: true
+publish: true
+draft: false
 ---
 
 ## Question

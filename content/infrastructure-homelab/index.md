@@ -16,6 +16,11 @@ Lessons from building, running, and understanding services on personal servers a
 
 These topics are directions for future notes; not all have their own pages yet.
 
+## Learning notes
+
+- [[infrastructure-homelab/gcp-gpu-tpu-research-environments|GPU and TPU research environments]]
+- [[infrastructure-homelab/2026-11-03-qwen-image-21-comfyui-gcp|Qwen Image in ComfyUI on GCP]]
+
 ## Related projects
 
 - [[projects/homelab|Homelab]]

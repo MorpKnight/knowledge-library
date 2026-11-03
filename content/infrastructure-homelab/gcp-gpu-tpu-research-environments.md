@@ -3,8 +3,8 @@ title: GCP GPU and TPU Research Environments
 description: Provisioning, validation, lifecycle, and reproducibility lessons from research environments.
 date: 2026-11-04
 tags: [gcp, gpu, tpu, reproducibility]
-publish: false
-draft: true
+publish: true
+draft: false
 ---
 
 ## Purpose and scope

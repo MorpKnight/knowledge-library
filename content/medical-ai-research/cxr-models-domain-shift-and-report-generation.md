@@ -3,8 +3,8 @@ title: CXR Models, Domain Shift, and Report Generation
 description: Compare classification, detection, report generation, quantization, and distillation without conflating their evidence.
 date: 2026-11-04
 tags: [medical-imaging, domain-shift, quantization, distillation]
-publish: false
-draft: true
+publish: true
+draft: false
 ---
 
 ## Different tasks and different evidence
