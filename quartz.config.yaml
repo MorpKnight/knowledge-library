@@ -5,8 +5,8 @@ configuration:
   enableSPA: true
   enablePopovers: true
   analytics: null
-  locale: id-ID
-  baseUrl: morpknight.github.io/knowledge-library
+  locale: en-US
+  baseUrl: garden.giovanc.com
   ignorePatterns:
     - private
     - templates

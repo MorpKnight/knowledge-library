@@ -1,28 +1,28 @@
 ---
-title: Judul catatan
-description: Ringkasan singkat isi catatan.
+title: Note title
+description: A short summary of the note.
 date: 2026-11-03
 tags: []
 publish: false
 draft: true
 ---
 
-## Hal yang saya pelajari
+## What I learned
 
-Tuliskan pemahaman dengan bahasa sendiri.
+Explain your understanding in your own words.
 
-## Contoh atau percobaan
+## Example or experiment
 
-Tuliskan konteks, langkah, dan hasil yang benar-benar diamati.
+Describe the context, steps, and results actually observed.
 
-## Yang masih perlu dipahami
+## Open questions
 
-Tuliskan pertanyaan atau keterbatasan.
+Record questions and limitations.
 
-## Catatan terkait
+## Related notes
 
-Tambahkan tautan ke catatan yang relevan.
+Link to relevant notes.
 
-## Sumber
+## Sources
 
-Tambahkan referensi asli.
+Link to original references.

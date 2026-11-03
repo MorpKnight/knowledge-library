@@ -1,22 +1,22 @@
 ---
 title: Career & Academic Journey
-description: Peta pembelajaran tentang studi, komunikasi, dan perjalanan karier.
+description: A learning map for education, communication, and career development.
 publish: true
 draft: false
 date: 2026-11-03
 ---
 
-Ruang untuk merefleksikan proses belajar, mengomunikasikan pengalaman, dan mempersiapkan langkah akademik maupun profesional.
+A space to reflect on learning, communicate experience, and prepare for academic and professional opportunities.
 
-## Topik untuk dijelajahi
+## Topics to explore
 
-- Mengomunikasikan pengalaman dalam CV dan portofolio
-- Proposal riset dan persiapan wawancara
-- Eksplorasi studi dan karier di Jepang
+- Communicating experience through a CV and portfolio
+- Research proposals and interview preparation
+- Exploring education and careers in Japan
 
-Topik ini menjadi arah catatan yang akan dikembangkan; belum semuanya memiliki halaman tersendiri.
+These topics are directions for future notes; not all have their own pages yet.
 
-## Bidang terkait
+## Related fields
 
 - [[medical-ai-research/index|Medical AI & Research]]
-- [[index|Kembali ke beranda]]
+- [[index|Back to the home page]]

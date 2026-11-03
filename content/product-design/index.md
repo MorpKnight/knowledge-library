@@ -1,27 +1,27 @@
 ---
 title: Product & Design
-description: Peta pembelajaran tentang memahami masalah dan merancang produk.
+description: A learning map for understanding problems and designing products.
 publish: true
 draft: false
 date: 2026-11-03
 ---
 
-Catatan tentang memahami kebutuhan, mengembangkan gagasan, dan menguji solusi melalui proses desain.
+Notes on understanding needs, developing ideas, and testing solutions through the design process.
 
-## Topik untuk dijelajahi
+## Topics to explore
 
-- Challenge Based Learning dan perumusan masalah
-- Wawancara, sintesis temuan, dan prototyping
-- UI/UX dan Apple Human Interface Guidelines
+- Challenge Based Learning and problem framing
+- Interviews, research synthesis, and prototyping
+- UI/UX and Apple Human Interface Guidelines
 
-Topik ini menjadi arah catatan yang akan dikembangkan; belum semuanya memiliki halaman tersendiri.
+These topics are directions for future notes; not all have their own pages yet.
 
-## Proyek terkait
+## Related projects
 
 - [[projects/c67|C67]]
 - [[projects/amt-lawtionary|AMT / Lawtionary]]
 
-## Bidang terkait
+## Related fields
 
 - [[software-development/index|Software Development]]
-- [[index|Kembali ke beranda]]
+- [[index|Back to the home page]]

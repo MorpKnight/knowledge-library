@@ -1,23 +1,23 @@
 ---
 title: Monash Research
-description: Peta pembelajaran dari riset terkait citra medis.
+description: A learning map from medical imaging research.
 publish: true
 draft: false
 date: 2026-11-03
 ---
 
-Ruang ini mengumpulkan arah pembelajaran dari pekerjaan riset yang berkaitan dengan citra medis, data, dan eksperimen komputasi.
+This space collects directions for learning from research involving medical images, data, and computational experiments.
 
-## Arah pembelajaran
+## Learning directions
 
-- Konteks dataset dan asal-usul label
-- Pengelolaan data dan reproduktibilitas analisis
-- Model citra medis dan lingkungan komputasi
+- Dataset context and label provenance
+- Data management and reproducible analysis
+- Medical imaging models and computing environments
 
-Catatan mendalam dan hasil spesifik dapat ditambahkan setelah sumber proyek ditinjau.
+In-depth notes and specific results can be added after reviewing the project sources.
 
-## Jelajahi bidang terkait
+## Explore related fields
 
 - [[medical-ai-research/index|Medical AI & Research]]
 - [[ai-machine-learning/index|AI & Machine Learning]]
-- [[projects/index|Semua proyek]]
+- [[projects/index|All projects]]

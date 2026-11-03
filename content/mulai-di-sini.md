@@ -1,22 +1,22 @@
 ---
-title: Mulai di sini
-description: Cara menjelajahi dan memahami catatan di Knowledge Library.
+title: Start Here
+description: How to explore and understand the notes in this knowledge library.
 publish: true
 draft: false
 date: 2026-11-03
 ---
 
-Website ini berawal dari keinginan untuk mengabadikan pembelajaran dalam bentuk yang mudah dibaca kembali dan dibagikan.
+This website began as a place to preserve what I learn in a form that is easy to revisit and share.
 
-## Dua cara menjelajah
+## Two ways to explore
 
-Mulailah dari [[index|beranda]] untuk memilih bidang yang ingin dipelajari, atau buka [[projects/index|Proyek]] untuk melihat hubungan antara pengalaman dan topik yang muncul darinya. Pencarian, daftar halaman, backlinks, dan graph menyediakan cara lain untuk menemukan hubungan antartulisan.
+Start at the [[index|home page]] to choose a field, or visit [[projects/index|Projects]] to see how experience connects to different topics. Search, the page explorer, backlinks, and the graph offer other ways to discover connections.
 
-## Bentuk catatan
+## Types of notes
 
-- **Konsep:** penjelasan yang dapat diperbaiki seiring bertambahnya pemahaman.
-- **Pengalaman:** konteks, keputusan, dan pelajaran dari sebuah proyek.
-- **Eksperimen:** pertanyaan, pendekatan, hasil yang diamati, dan keterbatasannya.
-- **Peta topik:** kumpulan tautan ke catatan yang saling berhubungan.
+- **Concepts:** explanations that can improve as my understanding grows.
+- **Experiences:** context, decisions, and lessons from a project.
+- **Experiments:** questions, approaches, observed results, and limitations.
+- **Topic maps:** collections of links to related notes.
 
-Perpustakaan ini masih bertumbuh. Daftar topik pada halaman kategori adalah arah eksplorasi, bukan klaim bahwa semua catatannya sudah tersedia. Sumber akan dicantumkan dalam tulisan yang membahas karya orang lain atau temuan tertentu.
+This library is still growing. The topics listed on each page are directions for future exploration, not a claim that every note has already been written. Sources will be included when a note discusses someone else's work or a specific finding.

@@ -1,26 +1,26 @@
 ---
 title: Knowledge Library
-description: Catatan belajar, ide, dan hubungan antarpengetahuan yang terus berkembang.
+description: Learning notes, ideas, and connections that grow over time.
 publish: true
 draft: false
 date: 2026-11-03
 ---
 
-Selamat datang di perpustakaan pengetahuan saya. Di sini saya mengumpulkan hal-hal yang saya pelajari, menjelaskan kembali ide dengan bahasa sendiri, dan menghubungkan pengetahuan dengan pengalaman membuat sesuatu.
+Welcome to my knowledge library. This is where I collect what I learn, explain ideas in my own words, and connect knowledge with the experience of making things.
 
-## Jelajahi berdasarkan topik
+## Explore by topic
 
-- [[ai-machine-learning/index|AI & Machine Learning]] — model, pembelajaran mesin, dan evaluasi.
-- [[medical-ai-research/index|Medical AI & Research]] — citra medis, dataset, dan metodologi riset.
-- [[software-development/index|Software Development]] — aplikasi, backend, dan kolaborasi pengembangan.
-- [[product-design/index|Product & Design]] — memahami masalah, merancang, dan menguji ide.
-- [[infrastructure-homelab/index|Infrastructure & Homelab]] — server, jaringan, dan deployment.
-- [[hardware-embedded/index|Hardware & Embedded]] — elektronika, perangkat, dan sistem tertanam.
-- [[career-academic-journey/index|Career & Academic Journey]] — proses belajar, studi, dan karier.
+- [[ai-machine-learning/index|AI & Machine Learning]] — models, machine learning, and evaluation.
+- [[medical-ai-research/index|Medical AI & Research]] — medical imaging, datasets, and research methods.
+- [[software-development/index|Software Development]] — applications, backends, and collaboration.
+- [[product-design/index|Product & Design]] — understanding problems, designing, and testing ideas.
+- [[infrastructure-homelab/index|Infrastructure & Homelab]] — servers, networking, and deployment.
+- [[hardware-embedded/index|Hardware & Embedded]] — electronics, devices, and embedded systems.
+- [[career-academic-journey/index|Career & Academic Journey]] — learning, education, and career development.
 
-## Jelajahi berdasarkan pengalaman
+## Explore through experience
 
-[[projects/index|Proyek]] menghubungkan topik di atas dengan konteks pekerjaan dan eksperimen. Untuk mengenal cara membaca perpustakaan ini, kunjungi [[mulai-di-sini|Mulai di sini]].
+[[projects/index|Projects]] connect these topics to the work and experiments that inspired them. Visit [[mulai-di-sini|Start Here]] to learn how to explore this library.
 
-> [!note] Sedang bertumbuh
-> Halaman topik ini adalah peta awal. Catatan dan pengalaman akan ditambahkan serta diperbarui secara bertahap.
+> [!note] Growing in public
+> These topic pages are starting points. Notes and experiences will be added and refined over time.

@@ -1,17 +1,17 @@
 ---
-title: Proyek
-description: Pintu masuk ke pengalaman dan pembelajaran dari berbagai proyek.
+title: Projects
+description: An entry point to experiences and lessons from projects.
 publish: true
 draft: false
 date: 2026-11-03
 ---
 
-Proyek memberi konteks pada konsep: pertanyaan yang dihadapi, pendekatan yang dicoba, dan hal yang masih perlu dipahami. Halaman-halaman ini merupakan peta awal, bukan laporan lengkap atau klaim hasil akhir.
+Projects give concepts context: the questions encountered, approaches explored, and things that remain to be understood. These pages are starting points, not complete reports or claims of final results.
 
-- [[projects/federated-learning|Federated Learning untuk Citra X-Ray]] — pembelajaran terdistribusi dan evaluasi model dalam konteks citra medis.
-- [[projects/monash-research|Monash Research]] — pembelajaran dari riset dan data citra medis.
-- [[projects/c67|C67]] — pengembangan aplikasi dan eksplorasi pengalaman perjalanan.
-- [[projects/amt-lawtionary|AMT / Lawtionary]] — aplikasi, bahasa, dan eksplorasi AI untuk konteks hukum.
-- [[projects/homelab|Homelab]] — eksperimen infrastruktur dan layanan mandiri.
+- [[projects/federated-learning|Federated Learning for X-Ray Imaging]] — distributed learning and model evaluation in medical imaging.
+- [[projects/monash-research|Monash Research]] — lessons from medical imaging research and data.
+- [[projects/c67|C67]] — application development and exploration of travel experiences.
+- [[projects/amt-lawtionary|AMT / Lawtionary]] — applications, language, and AI exploration in a legal context.
+- [[projects/homelab|Homelab]] — infrastructure and self-hosting experiments.
 
-Kembali ke [[index|beranda]].
+Back to the [[index|home page]].

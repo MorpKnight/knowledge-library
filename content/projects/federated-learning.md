@@ -1,23 +1,23 @@
 ---
-title: Federated Learning untuk Citra X-Ray
-description: Pembelajaran federated learning dalam konteks citra X-ray.
+title: Federated Learning for X-Ray Imaging
+description: Learning about federated learning in the context of X-ray images.
 publish: true
 draft: false
 date: 2026-11-03
 ---
 
-Proyek ini menjadi titik awal untuk memahami pembelajaran terdistribusi pada data citra X-ray dan tantangan mengevaluasinya di lingkungan yang berbeda.
+This project is a starting point for understanding distributed learning on X-ray images and the challenges of evaluating it across different environments.
 
-## Arah pembelajaran
+## Learning directions
 
-- Perbedaan distribusi data antarpartisipan dan konsep non-IID
-- Perbandingan lingkungan simulasi dan perangkat nyata
-- Evaluasi model serta cara menjelaskan keterbatasan hasil
+- Differences in data distributions across participants and non-IID data
+- Comparing simulated and real-device environments
+- Model evaluation and how to explain limitations
 
-Catatan mendalam dan hasil spesifik dapat ditambahkan setelah sumber proyek ditinjau.
+In-depth notes and specific results can be added after reviewing the project sources.
 
-## Jelajahi bidang terkait
+## Explore related fields
 
 - [[ai-machine-learning/index|AI & Machine Learning]]
 - [[medical-ai-research/index|Medical AI & Research]]
-- [[projects/index|Semua proyek]]
+- [[projects/index|All projects]]

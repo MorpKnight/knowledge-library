@@ -1,26 +1,26 @@
 ---
 title: Infrastructure & Homelab
-description: Peta pembelajaran tentang infrastruktur, jaringan, dan layanan.
+description: A learning map for infrastructure, networking, and services.
 publish: true
 draft: false
 date: 2026-11-03
 ---
 
-Ruang untuk pembelajaran dari membangun, menjalankan, dan memahami layanan di server sendiri maupun cloud.
+Lessons from building, running, and understanding services on personal servers and in the cloud.
 
-## Topik untuk dijelajahi
+## Topics to explore
 
-- Docker, deployment, dan pengelolaan layanan
-- Jaringan, akses jarak jauh, dan Cloudflare Tunnel
-- GPU virtual machine dan lingkungan eksperimen
+- Docker, deployment, and service management
+- Networking, remote access, and Cloudflare Tunnel
+- GPU virtual machines and experiment environments
 
-Topik ini menjadi arah catatan yang akan dikembangkan; belum semuanya memiliki halaman tersendiri.
+These topics are directions for future notes; not all have their own pages yet.
 
-## Proyek terkait
+## Related projects
 
 - [[projects/homelab|Homelab]]
 
-## Bidang terkait
+## Related fields
 
 - [[software-development/index|Software Development]]
-- [[index|Kembali ke beranda]]
+- [[index|Back to the home page]]

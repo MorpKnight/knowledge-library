@@ -1,28 +1,28 @@
 ---
 title: AI & Machine Learning
-description: Peta pembelajaran tentang model, metode, dan evaluasi AI.
+description: A learning map for AI models, methods, and evaluation.
 publish: true
 draft: false
 date: 2026-11-03
 ---
 
-Catatan tentang cara model dipelajari, digunakan, dan dievaluasi—dari konsep dasar hingga pertanyaan yang muncul saat bereksperimen.
+Notes on how models are trained, used, and evaluated, from foundational concepts to questions that arise during experiments.
 
-## Topik untuk dijelajahi
+## Topics to explore
 
-- Federated learning dan karakteristik data non-IID
-- Large language models, retrieval, dan inference
-- Evaluasi model, perbandingan eksperimen, dan batasan hasil
+- Federated learning and non-IID data
+- Large language models, retrieval, and inference
+- Model evaluation, experimental comparisons, and limitations
 
-Topik ini menjadi arah catatan yang akan dikembangkan; belum semuanya memiliki halaman tersendiri.
+These topics are directions for future notes; not all have their own pages yet.
 
-## Proyek terkait
+## Related projects
 
-- [[projects/federated-learning|Federated Learning untuk Citra X-Ray]]
+- [[projects/federated-learning|Federated Learning for X-Ray Imaging]]
 - [[projects/monash-research|Monash Research]]
 - [[projects/amt-lawtionary|AMT / Lawtionary]]
 
-## Bidang terkait
+## Related fields
 
 - [[medical-ai-research/index|Medical AI & Research]]
-- [[index|Kembali ke beranda]]
+- [[index|Back to the home page]]

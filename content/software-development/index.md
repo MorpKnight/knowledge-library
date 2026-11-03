@@ -1,28 +1,28 @@
 ---
 title: Software Development
-description: Peta pembelajaran membangun dan memelihara perangkat lunak.
+description: A learning map for building and maintaining software.
 publish: true
 draft: false
 date: 2026-11-03
 ---
 
-Catatan tentang proses mengembangkan aplikasi dan sistem, mulai dari antarmuka sampai backend dan kolaborasi.
+Notes on developing applications and systems, from interfaces and backends to collaboration.
 
-## Topik untuk dijelajahi
+## Topics to explore
 
-- SwiftUI dan pengembangan aplikasi iOS
-- Backend, database, autentikasi, dan Supabase
-- Arsitektur aplikasi, pengujian, Git, dan kolaborasi
+- SwiftUI and iOS application development
+- Backends, databases, authentication, and Supabase
+- Application architecture, testing, Git, and collaboration
 
-Topik ini menjadi arah catatan yang akan dikembangkan; belum semuanya memiliki halaman tersendiri.
+These topics are directions for future notes; not all have their own pages yet.
 
-## Proyek terkait
+## Related projects
 
 - [[projects/c67|C67]]
 - [[projects/amt-lawtionary|AMT / Lawtionary]]
 
-## Bidang terkait
+## Related fields
 
 - [[product-design/index|Product & Design]]
 - [[infrastructure-homelab/index|Infrastructure & Homelab]]
-- [[index|Kembali ke beranda]]
+- [[index|Back to the home page]]

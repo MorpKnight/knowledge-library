@@ -1,24 +1,24 @@
 ---
 title: AMT / Lawtionary
-description: Peta pembelajaran dari eksplorasi aplikasi dan AI dalam konteks hukum.
+description: A learning map from exploring applications and AI in a legal context.
 publish: true
 draft: false
 date: 2026-11-03
 ---
 
-AMT / Lawtionary menjadi konteks untuk memahami pembangunan aplikasi, pengolahan bahasa, dan eksplorasi penggunaan AI pada informasi hukum.
+AMT / Lawtionary provides a context for understanding application development, language processing, and the exploration of AI for legal information.
 
-## Arah pembelajaran
+## Learning directions
 
-- Arsitektur aplikasi dan alur pengguna
-- Retrieval, model bahasa, dan evaluasi
-- Kualitas sumber serta batasan keluaran
+- Application architecture and user flows
+- Retrieval, language models, and evaluation
+- Source quality and output limitations
 
-Catatan mendalam dan hasil spesifik dapat ditambahkan setelah sumber proyek ditinjau.
+In-depth notes and specific results can be added after reviewing the project sources.
 
-## Jelajahi bidang terkait
+## Explore related fields
 
 - [[ai-machine-learning/index|AI & Machine Learning]]
 - [[software-development/index|Software Development]]
 - [[product-design/index|Product & Design]]
-- [[projects/index|Semua proyek]]
+- [[projects/index|All projects]]

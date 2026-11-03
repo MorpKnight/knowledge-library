@@ -1,27 +1,27 @@
 ---
 title: Medical AI & Research
-description: Peta pembelajaran tentang AI medis dan proses riset.
+description: A learning map for medical AI and research.
 publish: true
 draft: false
 date: 2026-11-03
 ---
 
-Ruang untuk menghubungkan pembelajaran machine learning dengan konteks citra medis, kualitas data, serta perancangan dan pelaporan riset.
+A space to connect machine learning with medical imaging, data quality, research design, and reporting.
 
-## Topik untuk dijelajahi
+## Topics to explore
 
-- Analisis citra X-ray dan aplikasi terkait tuberkulosis
-- Asal-usul dataset, label, dan keterbatasan data
-- Metodologi eksperimen dan interpretasi hasil
+- X-ray image analysis and applications related to tuberculosis
+- Dataset provenance, labels, and data limitations
+- Experimental methods and interpretation of results
 
-Topik ini menjadi arah catatan yang akan dikembangkan; belum semuanya memiliki halaman tersendiri.
+These topics are directions for future notes; not all have their own pages yet.
 
-## Proyek terkait
+## Related projects
 
-- [[projects/federated-learning|Federated Learning untuk Citra X-Ray]]
+- [[projects/federated-learning|Federated Learning for X-Ray Imaging]]
 - [[projects/monash-research|Monash Research]]
 
-## Bidang terkait
+## Related fields
 
 - [[ai-machine-learning/index|AI & Machine Learning]]
-- [[index|Kembali ke beranda]]
+- [[index|Back to the home page]]

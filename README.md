@@ -1,10 +1,16 @@
 # Knowledge Library
 
-Website catatan belajar pribadi berbasis Quartz 5, dengan Markdown sebagai sumber konten.
+A personal digital garden for learning in public, built with [Quartz 5](https://quartz.jzhao.xyz/). Notes are plain Markdown, connected by links, search, and a graph, and published as a static website.
 
-## Menjalankan di lokal
+[Explore the site](https://garden.giovanc.com/) · [GitHub repository](https://github.com/MorpKnight/knowledge-library) · [Quartz documentation](https://quartz.jzhao.xyz/)
 
-Prasyarat: Node.js 22 atau lebih baru, npm 10.9.2 atau lebih baru, dan Git. Pemasangan awal diverifikasi dengan Node 24.
+## What is inside
+
+The library brings together notes and project maps across AI and machine learning, medical research, software development, product and design, infrastructure, hardware, and career development. Topic and project pages are starting points; they do not claim that every proposed note or result is complete.
+
+## Get started
+
+Requirements: Node.js 22 or later, npm 10.9.2 or later, and Git. The setup has been verified with Node.js 24.
 
 ```sh
 npm ci
@@ -12,56 +18,61 @@ npx quartz plugin install
 npm run dev
 ```
 
-Buka `http://localhost:8080`. Preview otomatis membangun ulang saat konten berubah. Gunakan `Ctrl+C` untuk berhenti; server preview hanya untuk pengembangan lokal.
+Open <http://localhost:8080>. The development server rebuilds when content changes; stop it with `Ctrl+C`.
 
-Untuk membuat output statis:
+> [!NOTE]
+> This project uses npm-based Quartz plugins and currently has no `quartz.lock.json`. The plugin install command may report that the file is missing; npm dependencies are installed from `package-lock.json`.
+
+To build the static site:
 
 ```sh
 npm run build
 ```
 
-Hasilnya berada di `public/`, yang tidak masuk Git.
+The generated site is written to `public/` and is not tracked by Git.
 
-## Menulis
+## Write and publish
 
-- Beranda: `content/index.md`.
-- Catatan: berkas Markdown di `content/`.
-- Template: salin `content/templates/catatan.md` ke lokasi catatan baru dan ubah metadata.
-- Catatan hanya terbit jika `publish: true` dan tidak memiliki `draft: true`.
-- Folder `content/templates/` diabaikan dalam build.
-- Lampiran di `content/` dapat ikut terbit meskipun catatan yang memakainya disaring. Masukkan hanya lampiran yang memang boleh dipublikasikan.
+- Write Markdown in `content/`; `content/index.md` is the home page.
+- Open `content/` as an Obsidian vault, or edit the same files with a text editor or an AI agent.
+- Copy `content/templates/catatan.md` when starting a note. The template directory is excluded from builds.
+- Use Obsidian-style links such as `[[projects/c67|C67]]` to connect notes.
+- A note is published only when its frontmatter has `publish: true` and does not have `draft: true`.
 
-Obsidian dapat membuka `content/` sebagai vault. Editor teks dan AI agent juga dapat mengedit berkas yang sama. Tinjau perubahan sebelum commit.
-
-## Konfigurasi
-
-`quartz.config.yaml` memakai template Obsidian, locale `id-ID`, analytics nonaktif, dan font lokal. `baseUrl` disetel ke `morpknight.github.io/knowledge-library`; sesuaikan jika domain atau lokasi hosting berubah.
-
-Konfigurasi sumber dan layout lanjutan tersedia melalui `quartz.ts`. Lisensi kode Quartz tetap mengikuti `LICENSE.txt`; tentukan lisensi tulisan secara terpisah bila diperlukan.
-
-## Git
-
-Branch kerja lokal: `main`. Riwayat dasar berasal dari [Quartz upstream](https://github.com/jackyzha0/quartz), branch `v5`, commit `97a2d05` saat pemasangan. Remote `upstream` menunjuk ke proyek Quartz; riwayat Git dilengkapi saat menyiapkan repository GitHub.
-
-Remote `origin` menunjuk ke repository pribadi di GitHub. Tinjau perubahan sebelum menggunakan `quartz sync`: perintah tersebut dapat melakukan commit, pull, dan push.
-
-```sh
-git status
-git diff
+```yaml
+---
+title: A note title
+description: A short summary.
+publish: true
+draft: false
+---
 ```
 
-Untuk pembaruan Quartz, mulai dari working tree bersih dan baca [panduan upstream](https://quartz.jzhao.xyz/getting-started/upgrading). Simpan lockfile dependency. Workflow bawaan upstream dibatasi untuk repository Quartz dan terpisah dari workflow Pages proyek ini.
+> [!IMPORTANT]
+> Markdown publication filters do not guarantee that attachments are excluded. Files committed to this public repository are publicly accessible even if Quartz does not render them. Review notes, attachments, and Git changes before publishing.
 
-## Catatan proyek
+## Project structure
 
-Riset awal tersedia di `docs/quartz-research.md`. Folder `docs/` juga memuat dokumentasi upstream; website pribadi dibangun dari `content/`.
+```text
+content/                Notes, topic maps, and project pages
+content/templates/      Unpublished writing templates
+quartz.config.yaml      Site, plugin, and layout configuration
+quartz.ts               Advanced programmatic overrides
+docs/quartz-research.md  Initial Quartz research
+.github/workflows/      GitHub Actions workflows
+public/                 Generated output (ignored by Git)
+```
 
-GitHub Actions membangun dan menerbitkan situs ke [GitHub Pages](https://morpknight.github.io/knowledge-library/) setiap kali ada push ke `main`. Workflow juga dapat dijalankan secara manual dari tab Actions.
+## Deployment
 
-## Verifikasi pemasangan — 3 November 2026
+Pushes to `main` trigger `.github/workflows/pages.yml`, which installs dependencies, builds the site, and deploys `public/` to GitHub Pages. The workflow can also be run manually from the Actions tab. See [deployment runs](https://github.com/MorpKnight/knowledge-library/actions/workflows/pages.yml).
 
-Build produksi berhasil. Preview browser memverifikasi beranda, tautan ke catatan, backlinks, serta hasil pencarian. Build dengan dua catatan sementara membuktikan bahwa draft dan catatan tanpa `publish: true` tidak masuk output maupun indeks. Template juga tidak masuk output.
+GitHub Pages uses `garden.giovanc.com` as its custom domain, with DNS managed by Cloudflare. Quartz's `baseUrl` is set to that hostname. See [GitHub's custom domain guide](https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site/managing-a-custom-domain-for-your-github-pages-site) when changing domains.
 
-Template Obsidian upstream memuat tema tambahan yang gagal dimuat dan referensi Excalidraw yang belum tersedia. Tema tambahan dinonaktifkan dan referensi Excalidraw dihapus dari konfigurasi aktif; tampilan standar Quartz digunakan.
+## Maintenance
 
-Pembaruan dependency yang kompatibel sudah diterapkan. Audit npm terakhir menyisakan dua temuan moderate pada minimatch/serve-handler; perbaikan otomatis yang ditawarkan melibatkan perubahan lintas versi mayor. Belum diterapkan. Serve mode digunakan untuk preview pengembangan dan dihentikan setelah pemeriksaan.
+- `origin` points to this repository; `upstream` points to Quartz. The starting upstream revision was `97a2d05` on `v5`.
+- Keep the working tree clean and review the [Quartz upgrade guide](https://quartz.jzhao.xyz/getting-started/upgrading) before updating. `quartz sync` can commit, pull, and push; review changes before using it.
+- Upstream workflows remain in `.github/workflows/` and are restricted to the Quartz repository; `pages.yml` deploys this site.
+- The optional Quartz theme is disabled and the unavailable Excalidraw plugin reference was removed during setup. The site uses Quartz's standard appearance.
+- The npm audit performed during initial setup reported two moderate findings involving `minimatch` and `serve-handler`; the proposed automatic fix involved a major-version change. Re-run `npm audit` for the current status.

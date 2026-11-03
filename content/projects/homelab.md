@@ -1,23 +1,23 @@
 ---
 title: Homelab
-description: Peta pembelajaran dari menjalankan dan mengelola layanan sendiri.
+description: A learning map from running and managing self-hosted services.
 publish: true
 draft: false
 date: 2026-11-03
 ---
 
-Homelab menjadi tempat untuk mempelajari infrastruktur melalui pengoperasian layanan dan eksperimen secara langsung.
+The homelab is a place to learn about infrastructure by operating services and experimenting directly.
 
-## Arah pembelajaran
+## Learning directions
 
-- Container dan pengelolaan layanan
-- Jaringan, akses, dan pemeliharaan
-- Menghubungkan aplikasi dengan layanan backend
+- Containers and service management
+- Networking, access, and maintenance
+- Connecting applications to backend services
 
-Catatan mendalam dan hasil spesifik dapat ditambahkan setelah sumber proyek ditinjau.
+In-depth notes and specific results can be added after reviewing the project sources.
 
-## Jelajahi bidang terkait
+## Explore related fields
 
 - [[infrastructure-homelab/index|Infrastructure & Homelab]]
 - [[software-development/index|Software Development]]
-- [[projects/index|Semua proyek]]
+- [[projects/index|All projects]]
