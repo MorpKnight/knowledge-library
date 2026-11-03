@@ -1,0 +1,4 @@
+interface:
+  display_name: "Document Learning"
+  short_description: "Capture learning and experiments as linked notes"
+  default_prompt: "Use $document-learning to turn this work into an evidence-backed learning note or experiment record in my knowledge library."

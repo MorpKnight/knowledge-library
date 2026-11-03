@@ -59,9 +59,35 @@ content/templates/      Unpublished writing templates
 quartz.config.yaml      Site, plugin, and layout configuration
 quartz.ts               Advanced programmatic overrides
 docs/quartz-research.md  Initial Quartz research
+skills/document-learning/  Portable learning and experiment documentation skill
+AGENTS.md               Repository guidance for AI agents
 .github/workflows/      GitHub Actions workflows
 public/                 Generated output (ignored by Git)
 ```
+
+## Capture learning with an AI agent
+
+The portable [document-learning skill](skills/document-learning/SKILL.md) turns study sessions, project work, troubleshooting, and experiment results into linked Markdown notes. It includes learning and experiment templates, records evidence and limitations, and defaults to unpublished drafts. Its [Knowledge Library profile](skills/document-learning/references/knowledge-library.md) describes this garden; explicit destinations and other workspaces' conventions take precedence.
+
+Example request in Codex:
+
+```text
+Use $document-learning to document what I learned in this workspace,
+including experiment results and limitations, in my knowledge library.
+```
+
+The workspace exposes the skill through `.agents/skills/document-learning` for Codex and Gemini CLI and `.claude/skills/document-learning` for Claude Code. On the author's machine, user-level links under `~/.agents/skills/`, `~/.claude/skills/`, and `~/.gemini/skills/` make the same source available across workspaces. Native skill invocation varies by agent; agents without skill support can read `skills/document-learning/SKILL.md` directly. Start a new session or refresh the agent's skill list after installation.
+
+For another machine, clone the repository and link the skill into the applicable user directory. The following commands do not replace an existing installation:
+
+```sh
+mkdir -p "$HOME/.agents/skills" "$HOME/.claude/skills" "$HOME/.gemini/skills"
+ln -s "$PWD/skills/document-learning" "$HOME/.agents/skills/document-learning"
+ln -s "$HOME/.agents/skills/document-learning" "$HOME/.claude/skills/document-learning"
+ln -s "$HOME/.agents/skills/document-learning" "$HOME/.gemini/skills/document-learning"
+```
+
+Run these from the repository root and keep the checkout at that location while the links are in use. Discovery locations follow the official [Codex](https://learn.chatgpt.com/docs/build-skills#where-codex-loads-local-skills), [Claude Code](https://code.claude.com/docs/en/skills#choose-where-skills-load), and [Gemini CLI](https://geminicli.com/docs/cli/skills/#discovery-tiers) documentation. Skill invocation does not itself authorize a commit, push, or deployment.
 
 ## Deployment
 
