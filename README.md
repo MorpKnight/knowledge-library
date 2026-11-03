@@ -1,6 +1,6 @@
 # Knowledge Library
 
-Website catatan belajar pribadi berbasis Quartz 5, dengan Markdown sebagai sumber konten. Judul dan nama repository masih sementara.
+Website catatan belajar pribadi berbasis Quartz 5, dengan Markdown sebagai sumber konten.
 
 ## Menjalankan di lokal
 
@@ -35,7 +35,7 @@ Obsidian dapat membuka `content/` sebagai vault. Editor teks dan AI agent juga d
 
 ## Konfigurasi
 
-`quartz.config.yaml` memakai template Obsidian, locale `id-ID`, analytics nonaktif, dan font lokal. `baseUrl` sementara adalah `localhost:8080`; ganti dengan domain/subpath hosting sebenarnya sebelum deployment.
+`quartz.config.yaml` memakai template Obsidian, locale `id-ID`, analytics nonaktif, dan font lokal. `baseUrl` disetel ke `morpknight.github.io/knowledge-library`; sesuaikan jika domain atau lokasi hosting berubah.
 
 Konfigurasi sumber dan layout lanjutan tersedia melalui `quartz.ts`. Lisensi kode Quartz tetap mengikuti `LICENSE.txt`; tentukan lisensi tulisan secara terpisah bila diperlukan.
 
@@ -43,20 +43,20 @@ Konfigurasi sumber dan layout lanjutan tersedia melalui `quartz.ts`. Lisensi kod
 
 Branch kerja lokal: `main`. Riwayat dasar berasal dari [Quartz upstream](https://github.com/jackyzha0/quartz), branch `v5`, commit `97a2d05` saat pemasangan. Remote `upstream` menunjuk ke proyek Quartz. Clone awal bersifat shallow; ambil riwayat tambahan jika dibutuhkan untuk pembaruan.
 
-Remote `origin` dapat ditambahkan setelah repository GitHub dipilih. Jangan memakai `quartz sync` sebelum `origin` dikonfigurasi dan perubahan ditinjau: perintah tersebut dapat melakukan commit, pull, dan push.
+Remote `origin` menunjuk ke repository pribadi di GitHub. Tinjau perubahan sebelum menggunakan `quartz sync`: perintah tersebut dapat melakukan commit, pull, dan push.
 
 ```sh
 git status
 git diff
 ```
 
-Untuk pembaruan Quartz, mulai dari working tree bersih dan baca [panduan upstream](https://quartz.jzhao.xyz/getting-started/upgrading). Simpan lockfile dependency. Workflow bawaan upstream masih mengikuti konfigurasi proyek Quartz; deployment website pribadi belum disiapkan.
+Untuk pembaruan Quartz, mulai dari working tree bersih dan baca [panduan upstream](https://quartz.jzhao.xyz/getting-started/upgrading). Simpan lockfile dependency. Workflow bawaan upstream dibatasi untuk repository Quartz dan terpisah dari workflow Pages proyek ini.
 
 ## Catatan proyek
 
 Riset awal tersedia di `docs/quartz-research.md`. Folder `docs/` juga memuat dokumentasi upstream; website pribadi dibangun dari `content/`.
 
-Pilihan hosting yang direncanakan: GitHub Pages, homelab, atau Cloudflare Workers Static Assets. Belum ada deployment publik.
+GitHub Actions membangun dan menerbitkan situs ke [GitHub Pages](https://morpknight.github.io/knowledge-library/) setiap kali ada push ke `main`. Workflow juga dapat dijalankan secara manual dari tab Actions.
 
 ## Verifikasi pemasangan — 3 November 2026
 

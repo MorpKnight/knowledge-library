@@ -6,7 +6,7 @@ configuration:
   enablePopovers: true
   analytics: null
   locale: id-ID
-  baseUrl: localhost:8080
+  baseUrl: morpknight.github.io/knowledge-library
   ignorePatterns:
     - private
     - templates
