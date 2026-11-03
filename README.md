@@ -41,7 +41,7 @@ Konfigurasi sumber dan layout lanjutan tersedia melalui `quartz.ts`. Lisensi kod
 
 ## Git
 
-Branch kerja lokal: `main`. Riwayat dasar berasal dari [Quartz upstream](https://github.com/jackyzha0/quartz), branch `v5`, commit `97a2d05` saat pemasangan. Remote `upstream` menunjuk ke proyek Quartz. Clone awal bersifat shallow; ambil riwayat tambahan jika dibutuhkan untuk pembaruan.
+Branch kerja lokal: `main`. Riwayat dasar berasal dari [Quartz upstream](https://github.com/jackyzha0/quartz), branch `v5`, commit `97a2d05` saat pemasangan. Remote `upstream` menunjuk ke proyek Quartz; riwayat Git dilengkapi saat menyiapkan repository GitHub.
 
 Remote `origin` menunjuk ke repository pribadi di GitHub. Tinjau perubahan sebelum menggunakan `quartz sync`: perintah tersebut dapat melakukan commit, pull, dan push.
 
